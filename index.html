@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mar3a - Building Smart Barns</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Mar3a</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Mar3a</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Materials</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-nav-link>Our Team</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Citations</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button> 
+
+      <a href="#" class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Building <span class="has-before">Barns</span> that are smart, and eco-friendly
+            </h1>
+
+            <p class="hero-text">
+              At Mar3a we specialize in building, maintaining,and coding beautiful Barns. Tailored to your needs!
+            </p>
+
+            <div class="wrapper">
+              <a href="#" class="btn btn-primary has-before has-after">How It Works</a>
+
+              <button class="hero-btn" aria-label="pixology promo">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Behind the scenes</span>
+              </button>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Our Materials</p>
+
+          <h2 class="h2 section-title text-center">Everything used to make this project is <span class="has-before">just a click away!</span></h2>
+
+          <ul class="grid-list">
+  
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://makerselectronics.com/product/nodemcu-esp32-s-development-board-38-pin-wifi-and-bluetooth" class="card-title">Arduino, esp32-s</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 17, 100%, 68%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjTg8CKntiFAxXPAK0GHSW_DSEYABAGGgJwdg&ase=2&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVK51EkkSHjBSC8G7N6iyvhTy480MEEQrQgnvbWgKstgcManUWa-P8RoCrZcQAvD_BwE&sig=AOD64_18AhTzv0OXGryDFm-ov_vnNKatyw&ctype=5&q=&nis=4&ved=2ahUKEwjzoa-KntiFAxWpJ0QIHaXbAJgQwg8oAXoECAcQCQ&adurl=" class="card-title">DHT-11, temprature sesnor</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 343, 98%, 60%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiwo7SlntiFAxVUDK0GHQJRBRUYABAPGgJwdg&ase=2&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVE6KdkCKTV5XpYZnrpD02hTrmUBN8Wo7NCG5n9fLzYVJi1ycnmeoEhoCNEoQAvD_BwE&sig=AOD64_3mtSQmLoEkWSS5dLPHzhPLR22JvQ&ctype=5&q=&nis=4&ved=2ahUKEwiti6ilntiFAxVrJUQIHcomDSAQwg8oAXoECAgQMg&adurl=" class="card-title">MQ-9, gas sesnor</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 343, 90%, 20%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://makerselectronics.com/product/ultrasonic-sensor-module-hy-srf05" class="card-title">UltraSonic </a>
+                </h3>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="service-card" style="--color: 210, 100%, 53%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjVgte6ntiFAxUNLq0GHf2qDAsYABAJGgJwdg&ase=2&gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVKkCazJrlSHHPQ6h_tK5BL-Bl8yf-pLN9RYbu1cmwMID1msgFgciOxoCE3UQAvD_BwE&sig=AOD64_0va8LEWiBtW_EnZYtCCpAeKKTanA&ctype=5&q=&nis=4&ved=2ahUKEwjcqse6ntiFAxWNEUQIHcTjD7YQwg8oAXoECAQQDA&adurl=" class="card-title">IR, infra-red sesnor </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 210, 100%, 53%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://makerselectronics.com/product/relay-module-2-channel-12v-active-low-trigger" class="card-title">Relay </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 157, 89%, 44%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://makerselectronics.com/product/wires-10-cm-female-to-male-pins" class="card-title">Jumpers, for connection</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="--color: 52, 98%, 50%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-7.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://makerselectronics.com/product/horizontal-submersible-water-pump-5v" class="card-title">5V Water pump</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle has-before">Why this project?</p>
+
+            <h2 class="h2 section-title">
+              Everything- from the smallest clay brick to the sensors has been choosen <span class="has-before">Carefully</span>
+            </h2>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 174, 77%, 50%">
+                    <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Smart Design</h3>
+
+                    <p class="card-text">
+                        At Mar3a we have manged to look up many designs over the centuries of barns and how did they devolop over the years, and carefully, chosen our materials and design that resits sun rays and keeps the inner volume cooler.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 241, 77%, 63%;">
+                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Didicated team</h3>
+
+                    <p class="card-text">
+                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+    
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Meet the Team</p>
+
+          <h2 class="h2 section-title text-center">
+            Our <span class="has-before">Team-that's us!</span>
+          </h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn active" data-filter-btn>Our Team</button>
+            </li>
+          </ul>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 835; --height: 429;">
+                  <img src="./assets/images/project-1.jpg" width="835" height="429" loading="lazy" alt="Book art design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Group Photo</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Branding</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-2.jpg" width="416" height="429" loading="lazy" alt="Graphic Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Amr Khaled</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Analyst</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-3.jpg" width="416" height="429" loading="lazy" alt="3d Digital Art"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Abdelmasih Samuel</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Researcher</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-4.jpg" width="416" height="429" loading="lazy" alt="Web Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mohamed Ramadan</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Leader</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-5.jpg" width="416" height="429" loading="lazy"
+                    alt="Mobile App Design" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> Abdelrahman Tamer</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Writer</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle text-center has-before">Our Citations</p>
+
+          <h2 class="h2 section-title text-center">
+            All <span class="has-before">Project resources</span>
+          </h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card large">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="644" height="363" loading="lazy"
+                    alt="Godaddy user flow solution..." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Citations</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">April 18, 2024</span>
+                    </a>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">The Mechanism by which the DHT-11 sensor works...</a>
+                  </h3>
+
+                  <p class="card-text">
+                    The DHT-11 sensor plays a pivotal role in our M.A.R.3.A project. Its precision is crucial as it holds the key to overcoming our primary and most formidable obstacle: maintaining a temperature differential of just 3 degrees.                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="202" height="162" loading="lazy"
+                    alt="Godaddy user flow solution for every individual" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Citations</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">April 18, 2024</span>
+                    </a>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Methane </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.png" width="202" height="162" loading="lazy"
+                    alt="Business solution for every individual" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Citations</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">April 18, 2024</span>
+                    </a>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Business solution for every individual</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-4.png" width="202" height="162" loading="lazy"
+                    alt="How to gain pro experience ar figma update version" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <a href="#" class="tag">Citations</a>
+
+                    <a href="#" class="publish-date">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">April 18, 2024</span>
+                    </a>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">How to gain pro experience ar figma update version</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <p class="footer-list-title">About Mar3a</p>
+
+          <p class="footer-text">
+            A new way to make cows' farms monotoring easy, reliable and 100% secure.
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+     
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
